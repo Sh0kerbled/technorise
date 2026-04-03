@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/technorise/",
+  base: "https://sh0kerbled.github.io/technorise/",
 
   plugins: [vue(), vueDevTools(), tailwindcss()],
   resolve: {
